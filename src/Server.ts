@@ -16,6 +16,7 @@ export default class Server {
     }
 
     public createServer() {
+        /* test */
         http.createServer((req, res) => {
             this.incomingMessage = req;
             this.serverResponse = res;
